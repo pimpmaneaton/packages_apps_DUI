@@ -182,6 +182,8 @@ public class SmartBarView extends BaseNavigationBar {
     private static boolean mNavTintCustomIconSwitch;
     public float mPulseNavButtonsOpacity;
 
+    private AudioManager mAudioManager;
+
     private GestureDetector mNavDoubleTapToSleep;
     private SlideTouchEvent mSlideTouchEvent;
 
