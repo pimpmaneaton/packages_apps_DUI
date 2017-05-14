@@ -22,7 +22,7 @@
   <string name="label_action_notification_panel">Painel de notificação</string>
   <string name="label_action_screenshot">Captura de tela</string>
   <string name="label_action_region_screenshot">Captura de tela parcial</string>
-  <string name="label_action_screenrecord">Gravar ecrã</string>
+  <string name="label_action_screenrecord">Gravar tela</string>
   <string name="label_action_expanded_desktop">Área de trabalho expandida</string>
   <string name="label_action_screen_off">Desligar a tela</string>
   <string name="label_action_force_close_app">Forçar fechamento do app</string>
@@ -41,15 +41,15 @@
   <string name="label_action_back">Voltar</string>
   <string name="label_action_home">Página inicial</string>
   <string name="label_action_ime_switcher">Alterador de IME</string>
-  <string name="label_action_stop_screenpinning">Sair da fixação do ecrã</string>
-  <string name="label_action_ime_down">Cursor para baixo</string>
-  <string name="label_action_ime_left">Cursor para a esquerda</string>
-  <string name="label_action_ime_right">Cursor para a direita</string>
-  <string name="label_action_ime_up">Cursor para cima</string>
+  <string name="label_action_stop_screenpinning">Parar fixação da tela</string>
+  <string name="label_action_ime_down">Cursor do método de entrada para baixo</string>
+  <string name="label_action_ime_left">Cursor do método de entrada para esquerda</string>
+  <string name="label_action_ime_right">Cursor do método de entrada para direita</string>
+  <string name="label_action_ime_up">Cursor do método de entrada para cima</string>
   <string name="label_action_volume_panel">Painel de volume</string>
   <string name="label_action_clear_notifications">Limpar notificações</string>
-  <string name="label_action_editing_smartbar">Editor da barra de navegação</string>
-  <string name="label_action_split_screen">Dividir ecrã</string>
+  <string name="label_action_editing_smartbar">Editor da Barra Inteligente</string>
+  <string name="label_action_split_screen">Dividir a tela</string>
   <string name="label_action_one_handed_mode_left">Modo de uma mão (esquerda)</string>
   <string name="label_action_one_handed_mode_right">Modo de uma mão (direita)</string>
   <string name="label_action_media_left">Faixa anterior</string>
@@ -68,8 +68,8 @@
   <string name="label_smartbar_icon_gallery">Galeria</string>
   <string name="label_smartbar_icon_color">Cor</string>
   <string name="label_smartbar_icon_reset">Redefinir</string>
-  <string name="smartbar_editor_toast_starting">A iniciar o editor de navegação</string>
-  <string name="smartbar_editor_toast_stopping">A parar o editor de navegação</string>
+  <string name="smartbar_editor_toast_starting">Iniciando o editor de navegação</string>
+  <string name="smartbar_editor_toast_stopping">Parando o editor de navegação</string>
   <string name="smartbar_editor_toast_unavailable">Editor de navegação indisponível</string>
   <string name="edit_mode">Modo de Edição</string>
   <!-- App killed message -->

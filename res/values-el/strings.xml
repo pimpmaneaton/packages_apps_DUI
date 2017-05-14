@@ -17,6 +17,37 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">Καμία ενέργεια</string>
+  <string name="label_action_settings_panel">Πάνελ ρυθμίσεων</string>
+  <string name="label_action_notification_panel">Πάνελ ειδοποιήσεων</string>
+  <string name="label_action_screenshot">Στιγμιότυπο οθόνης</string>
+  <string name="label_action_region_screenshot">Μερικό στιγμιότυπο οθόνης</string>
+  <string name="label_action_screenrecord">Εγγραφή οθόνης</string>
+  <string name="label_action_expanded_desktop">Εκτεταμένη επιφάνεια εργασίας</string>
+  <string name="label_action_screen_off">Απενεργοποίηση οθόνης</string>
+  <string name="label_action_force_close_app">Αναγκαστικό κλείσιμο εφαρμογής</string>
+  <string name="label_action_search_assistant">Βοηθός αναζήτησης</string>
+  <string name="label_action_google_now_on_tap">Google Now On Tap</string>
+  <string name="label_action_voice_search">Φωνητική αναζήτηση</string>
+  <string name="label_action_in_app_search">Αναζήτηση μέσα στην εφαρμογή</string>
+  <string name="label_action_flashlight">Φακός</string>
+  <string name="label_action_bluetooth">Bluetooth</string>
+  <string name="label_action_wifi">WiFi</string>
+  <string name="label_action_hotspot">Σημείο πρόσβασης</string>
+  <string name="label_action_last_app">Τελευταία εφαρμογή</string>
+  <string name="label_action_overview">Πρόσφατα</string>
+  <string name="label_action_power_menu">Μενού ισχύος</string>
+  <string name="label_action_menu">Μενού</string>
+  <string name="label_action_back">Πίσω</string>
+  <string name="label_action_home">Αρχική σελίδα</string>
+  <string name="label_action_ime_switcher">Εναλλαγή μεθ. εισαγωγής</string>
+  <string name="label_action_stop_screenpinning">Σταμάτημα καρφιτσώματος οθόνης</string>
+  <string name="label_action_ime_down">Μέθοδος εισαγωγής δρομέα κάτω</string>
+  <string name="label_action_ime_left">Μέθοδος εισαγωγής δρομέα αριστερά</string>
+  <string name="label_action_ime_right">Μέθοδος εισαγωγής δρομέα δεξιά</string>
+  <string name="label_action_ime_up">Μέθοδος εισαγωγής δρομέα πάνω</string>
+  <string name="label_action_volume_panel">Πίνακας ήχου</string>
+  <string name="label_action_clear_notifications">Εκκαθάριση ειδοποιήσεων</string>
   <!-- Smartbar -->
   <!-- App killed message -->
 </resources>
