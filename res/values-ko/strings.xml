@@ -17,6 +17,12 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_force_close_app">앱 강제종료</string>
+  <string name="label_action_google_now_on_tap">구글 나우 온 탭</string>
+  <string name="label_action_editing_smartbar">스마트바 편집기</string>
+  <string name="label_action_one_handed_mode_left">한손모드(왼쪽)</string>
+  <string name="label_action_one_handed_mode_right">한손모드(오른쪽)</string>
   <!-- Smartbar -->
+  <string name="label_smartbar_single_tap">싱글 탭</string>
   <!-- App killed message -->
 </resources>

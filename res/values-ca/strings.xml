@@ -17,6 +17,13 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">No facis res</string>
+  <string name="label_action_settings_panel">Panell de configuració</string>
+  <string name="label_action_notification_panel">Panell de notificacions</string>
+  <string name="label_action_screenshot">Captura de pantalla</string>
+  <string name="label_action_region_screenshot">Captura de pantalla parcial</string>
+  <string name="label_action_screenrecord">Enregistra la pantalla</string>
+  <string name="label_action_expanded_desktop">Escriptori Extès</string>
   <!-- Smartbar -->
   <!-- App killed message -->
 </resources>
