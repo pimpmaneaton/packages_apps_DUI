@@ -17,9 +17,30 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">동작 없음</string>
   <string name="label_action_settings_panel">설정 패널</string>
+  <string name="label_action_notification_panel">알림 패널</string>
+  <string name="label_action_screenshot">스크린샷</string>
+  <string name="label_action_region_screenshot">부분 스크린샷</string>
+  <string name="label_action_screenrecord">화면 녹화</string>
+  <string name="label_action_expanded_desktop">확장 데스크탑</string>
+  <string name="label_action_screen_off">화면 끄기</string>
   <string name="label_action_force_close_app">앱 강제종료</string>
+  <string name="label_action_search_assistant">검색 도우미</string>
   <string name="label_action_google_now_on_tap">구글 나우 온 탭</string>
+  <string name="label_action_voice_search">음성 검색</string>
+  <string name="label_action_in_app_search">앱 내 검색</string>
+  <string name="label_action_flashlight">손전등</string>
+  <string name="label_action_bluetooth">블루투스</string>
+  <string name="label_action_wifi">WiFi</string>
+  <string name="label_action_hotspot">핫스팟</string>
+  <string name="label_action_last_app">마지막으로 사용한 앱</string>
+  <string name="label_action_overview">최근 실행 목록</string>
+  <string name="label_action_power_menu">전원 메뉴</string>
+  <string name="label_action_menu">메뉴</string>
+  <string name="label_action_back">뒤로가기</string>
+  <string name="label_action_home">홈</string>
+  <string name="label_action_ime_switcher">IME 체인저</string>
   <string name="label_action_editing_smartbar">스마트바 편집기</string>
   <string name="label_action_one_handed_mode_left">한손모드(왼쪽)</string>
   <string name="label_action_one_handed_mode_right">한손모드(오른쪽)</string>

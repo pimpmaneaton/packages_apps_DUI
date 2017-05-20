@@ -18,11 +18,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">Aucune action</string>
-  <string name="label_action_settings_panel">Panneau des paramètres</string>
+  <string name="label_action_settings_panel">Volet des réglages rapides</string>
   <string name="label_action_notification_panel">Panneau de notification</string>
   <string name="label_action_screenshot">Capture d\'écran</string>
   <string name="label_action_region_screenshot">Capture d’écran partielle</string>
-  <string name="label_action_screenrecord">Enregistrer l\'écran</string>
+  <string name="label_action_screenrecord">Capture vidéo</string>
   <string name="label_action_expanded_desktop">Bureau étendu</string>
   <string name="label_action_screen_off">Éteindre l\'écran</string>
   <string name="label_action_force_close_app">Forcer l\'arrêt de l\'application</string>
@@ -61,11 +61,11 @@
   <string name="label_smartbar_remove">Supprimer</string>
   <string name="label_smartbar_cancel">Annuler</string>
   <string name="label_smartbar_finish">Terminé</string>
-  <string name="label_smartbar_single_tap">Appui simple</string>
+  <string name="label_smartbar_single_tap">Appui court</string>
   <string name="label_smartbar_double_tap">Appui double</string>
-  <string name="label_smartbar_long_press">Pression longue</string>
+  <string name="label_smartbar_long_press">Appui long</string>
   <string name="label_smartbar_icon_pack">Pack d\'icônes</string>
-  <string name="label_smartbar_icon_gallery">Gallerie</string>
+  <string name="label_smartbar_icon_gallery">Galerie</string>
   <string name="label_smartbar_icon_color">Couleur</string>
   <string name="label_smartbar_icon_reset">Réinitialiser</string>
   <string name="smartbar_editor_toast_starting">Commencer l\'édition du menu SmartBar</string>

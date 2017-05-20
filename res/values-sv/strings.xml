@@ -17,6 +17,46 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">Ingen åtgärd</string>
+  <string name="label_action_settings_panel">Inställningspanel</string>
+  <string name="label_action_notification_panel">Notifieringspanel</string>
+  <string name="label_action_screenshot">Skärmdump</string>
+  <string name="label_action_region_screenshot">Partiell skärmdump</string>
+  <string name="label_action_screenrecord">Spela in skärmen</string>
+  <string name="label_action_expanded_desktop">Utökat skrivbord</string>
+  <string name="label_action_screen_off">Stäng av skärm</string>
+  <string name="label_action_force_close_app">Tvinga stängning av app</string>
+  <string name="label_action_search_assistant">Sökassistenten</string>
+  <string name="label_action_voice_search">Röstsökning</string>
+  <string name="label_action_in_app_search">Sökning i app</string>
+  <string name="label_action_flashlight">Ficklampa</string>
+  <string name="label_action_bluetooth">Blåtand</string>
+  <string name="label_action_wifi">WiFi</string>
+  <string name="label_action_hotspot">Trådlös surfzon</string>
+  <string name="label_action_last_app">Senaste app</string>
+  <string name="label_action_overview">Senaste appar</string>
+  <string name="label_action_power_menu">Avstängningsmeny</string>
+  <string name="label_action_menu">Meny</string>
+  <string name="label_action_back">Tillbaka</string>
+  <string name="label_action_home">Hem</string>
+  <string name="label_action_ime_switcher">IME-växlare</string>
+  <string name="label_action_volume_panel">Volympanel</string>
+  <string name="label_action_clear_notifications">Rensa aviseringar.</string>
+  <string name="label_action_split_screen">Dela skärm</string>
+  <string name="label_action_media_left">Föregående spår</string>
+  <string name="label_action_media_right">Nästa spår</string>
   <!-- Smartbar -->
+  <string name="label_smartbar_actions">Åtgärder</string>
+  <string name="label_smartbar_icon">Ikon</string>
+  <string name="label_smartbar_add">Lägg till</string>
+  <string name="label_smartbar_remove">Ta bort</string>
+  <string name="label_smartbar_cancel">Avbryt</string>
+  <string name="label_smartbar_single_tap">Enkeltryck</string>
+  <string name="label_smartbar_double_tap">Dubbeltryck</string>
+  <string name="label_smartbar_long_press">Långtryck</string>
+  <string name="label_smartbar_icon_pack">Ikonpaket</string>
+  <string name="label_smartbar_icon_gallery">Galleri</string>
+  <string name="label_smartbar_icon_color">Färg</string>
+  <string name="label_smartbar_icon_reset">Återställ</string>
   <!-- App killed message -->
 </resources>
