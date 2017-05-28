@@ -65,7 +65,7 @@
   <string name="label_smartbar_double_tap">雙擊</string>
   <string name="label_smartbar_long_press">長按</string>
   <string name="label_smartbar_icon_pack">圖示包</string>
-  <string name="label_smartbar_icon_gallery">圖片庫</string>
+  <string name="label_smartbar_icon_gallery">相簿</string>
   <string name="label_smartbar_icon_color">顏色</string>
   <string name="label_smartbar_icon_reset">重設</string>
   <string name="smartbar_editor_toast_starting">開始導覽編輯器</string>
