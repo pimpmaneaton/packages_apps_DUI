@@ -42,10 +42,10 @@
   <string name="label_action_home">Trang chủ</string>
   <string name="label_action_ime_switcher">Thay đổi IME</string>
   <string name="label_action_stop_screenpinning">Dừng ghim màn hình</string>
-  <string name="label_action_ime_down">Phương thức nhập còn trỏ xuống</string>
-  <string name="label_action_ime_left">Phương thức nhập còn trỏ trái</string>
-  <string name="label_action_ime_right">Phương thức nhập còn trỏ phải</string>
-  <string name="label_action_ime_up">Phương thức nhập còn trỏ lên</string>
+  <string name="label_action_ime_down">Phương thức nhập con trỏ xuống</string>
+  <string name="label_action_ime_left">Phương thức nhập con trỏ trái</string>
+  <string name="label_action_ime_right">Phương thức nhập con trỏ phải</string>
+  <string name="label_action_ime_up">Phương thức nhập con trỏ lên</string>
   <string name="label_action_volume_panel">Bảng điều chỉnh âm lượng</string>
   <string name="label_action_clear_notifications">Xóa thông báo</string>
   <string name="label_action_editing_smartbar">Biên tập thanh thông minh</string>
