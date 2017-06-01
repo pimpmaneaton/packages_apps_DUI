@@ -17,6 +17,14 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">label_action_no_action
+Bindable action labels
+File: strings.xml</string>
+  <string name="label_action_settings_panel">Settings panel</string>
+  <string name="label_action_notification_panel">label_action_notification_panel
+File: strings.xml</string>
+  <string name="label_action_screenshot">Screenshot</string>
+  <string name="label_action_region_screenshot">mi note 4 custom rom for video calling fix</string>
   <!-- Smartbar -->
   <!-- App killed message -->
 </resources>

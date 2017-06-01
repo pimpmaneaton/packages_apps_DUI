@@ -41,9 +41,12 @@
   <string name="label_action_back">뒤로가기</string>
   <string name="label_action_home">홈</string>
   <string name="label_action_ime_switcher">IME 체인저</string>
+  <string name="label_action_stop_screenpinning">화면 고정 중지</string>
+  <string name="label_action_ime_down">입력 방법 커서를 아래로 내림</string>
   <string name="label_action_volume_panel">볼륨 패널</string>
   <string name="label_action_clear_notifications">알림 지우기</string>
   <string name="label_action_editing_smartbar">스마트바 편집기</string>
+  <string name="label_action_split_screen">화면 분할</string>
   <string name="label_action_one_handed_mode_left">한손모드(왼쪽)</string>
   <string name="label_action_one_handed_mode_right">한손모드(오른쪽)</string>
   <string name="label_action_media_left">이전 트랙</string>
