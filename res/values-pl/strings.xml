@@ -48,7 +48,7 @@
   <string name="label_action_ime_up">Metoda wprowadzania kursor w górę</string>
   <string name="label_action_volume_panel">Panel głośności</string>
   <string name="label_action_clear_notifications">Wyczyść powiadomienia</string>
-  <string name="label_action_editing_smartbar">Edycja SmartBar</string>
+  <string name="label_action_editing_smartbar">Edycja Smartbar</string>
   <string name="label_action_split_screen">Podzielony ekran</string>
   <string name="label_action_one_handed_mode_left">Tryb jednej ręki (lewa strona)</string>
   <string name="label_action_one_handed_mode_right">Tryb jednej ręki (prawa strona)</string>
