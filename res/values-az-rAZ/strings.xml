@@ -17,6 +17,61 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">Hərəkət yoxdur</string>
+  <string name="label_action_settings_panel">Parametrlər paneli</string>
+  <string name="label_action_notification_panel">Bildiriş paneli</string>
+  <string name="label_action_screenshot">Ekran görüntüsü</string>
+  <string name="label_action_region_screenshot">Qismən ekran görüntüsü</string>
+  <string name="label_action_screenrecord">Ekranı yadda saxla</string>
+  <string name="label_action_expanded_desktop">Genişləndirilmiş masaüstü</string>
+  <string name="label_action_screen_off">Ekranı söndür</string>
+  <string name="label_action_force_close_app">Tətbiqi bağlanmağa zorla</string>
+  <string name="label_action_search_assistant">Axtarış köməkçisi</string>
+  <string name="label_action_google_now_on_tap">Google Köməkçisinə Toxunun</string>
+  <string name="label_action_voice_search">Səsli axtarış</string>
+  <string name="label_action_in_app_search">Tətbiqetmə içində axtarış</string>
+  <string name="label_action_flashlight">Fənər</string>
+  <string name="label_action_bluetooth">Bluetooth</string>
+  <string name="label_action_wifi">WiFi</string>
+  <string name="label_action_hotspot">Giriş nöqtəsi</string>
+  <string name="label_action_last_app">Son tətbiqetmə</string>
+  <string name="label_action_overview">Son İstifadə Edilənlər</string>
+  <string name="label_action_power_menu">Güc menyusu</string>
+  <string name="label_action_menu">Menyu</string>
+  <string name="label_action_back">Geri</string>
+  <string name="label_action_home">Əsas səhifə</string>
+  <string name="label_action_ime_switcher">Klaviatura Dəyişdirici</string>
+  <string name="label_action_stop_screenpinning">Ekran sabitləməyi dayandır</string>
+  <string name="label_action_ime_down">Aşağı kursor giriş üsulu</string>
+  <string name="label_action_ime_left">Sol kursor giriş üsulu</string>
+  <string name="label_action_ime_right">Sağ kursor giriş üsuku</string>
+  <string name="label_action_ime_up">Yuxarı kursor giriş üsulu</string>
+  <string name="label_action_volume_panel">Səs paneli</string>
+  <string name="label_action_clear_notifications">Bildirişləri təmizlə</string>
+  <string name="label_action_editing_smartbar">Smartbar tənzimləyici</string>
+  <string name="label_action_split_screen">Bölünmüş ekran</string>
+  <string name="label_action_one_handed_mode_left">Tək əl modu (sol tərəf)</string>
+  <string name="label_action_one_handed_mode_right">Tək əl modu (sağ tərəf)</string>
+  <string name="label_action_media_left">Əvvəlki parça</string>
+  <string name="label_action_media_right">Sonrakı parça</string>
   <!-- Smartbar -->
+  <string name="label_smartbar_actions">Fəaliyyətlər</string>
+  <string name="label_smartbar_icon">İkon</string>
+  <string name="label_smartbar_add">Əlavə et</string>
+  <string name="label_smartbar_remove">Sil</string>
+  <string name="label_smartbar_cancel">Ləğv Etmək</string>
+  <string name="label_smartbar_finish">Bitir</string>
+  <string name="label_smartbar_single_tap">Tək toxunma</string>
+  <string name="label_smartbar_double_tap">2 dəfə toxunma</string>
+  <string name="label_smartbar_long_press">Uzun basılı saxlama</string>
+  <string name="label_smartbar_icon_pack">İkon paketi</string>
+  <string name="label_smartbar_icon_gallery">Qalereya</string>
+  <string name="label_smartbar_icon_color">Rəng</string>
+  <string name="label_smartbar_icon_reset">Sıfırla</string>
+  <string name="smartbar_editor_toast_starting">Gəzinti çubuğu tənzimləyici başladılır</string>
+  <string name="smartbar_editor_toast_stopping">Gəzinti çubuğu tənzimləyici dayandırılır</string>
+  <string name="smartbar_editor_toast_unavailable">Gəzinti çubuğu tənzimləyici istifadə edilə bilməz</string>
+  <string name="edit_mode">Tənzimləmə Modu</string>
   <!-- App killed message -->
+  <string name="app_killed_message">%s sonlandırıldı</string>
 </resources>

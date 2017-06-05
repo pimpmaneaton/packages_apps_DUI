@@ -17,6 +17,17 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_settings_panel">הגדרות</string>
+  <string name="label_action_notification_panel">התראות</string>
+  <string name="label_action_screenshot">צילום מסך</string>
+  <string name="label_action_region_screenshot">צילום מסך חלקי</string>
+  <string name="label_action_screenrecord">הקלט מסך</string>
+  <string name="label_action_expanded_desktop">שולחן עבודה מורחב</string>
+  <string name="label_action_screen_off">כבה מסך</string>
+  <string name="label_action_force_close_app">אלץ סגירת אפליקציה</string>
+  <string name="label_action_search_assistant">עוזר חיפוש</string>
+  <string name="label_action_google_now_on_tap">גוגל עכשיו בלחיצה</string>
+  <string name="label_action_voice_search">חיפוש קולי</string>
   <!-- Smartbar -->
   <!-- App killed message -->
 </resources>
