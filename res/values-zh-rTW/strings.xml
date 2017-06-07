@@ -61,8 +61,8 @@
   <string name="label_smartbar_remove">移除</string>
   <string name="label_smartbar_cancel">取消</string>
   <string name="label_smartbar_finish">完成</string>
-  <string name="label_smartbar_single_tap">按一下</string>
-  <string name="label_smartbar_double_tap">按兩下</string>
+  <string name="label_smartbar_single_tap">輕觸一下</string>
+  <string name="label_smartbar_double_tap">輕觸兩下</string>
   <string name="label_smartbar_long_press">長按</string>
   <string name="label_smartbar_icon_pack">圖示包</string>
   <string name="label_smartbar_icon_gallery">圖片庫</string>
