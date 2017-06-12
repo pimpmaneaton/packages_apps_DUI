@@ -44,6 +44,25 @@
   <string name="label_action_stop_screenpinning">הפסקת הצמדת מסך</string>
   <string name="label_action_volume_panel">לוח עוצמת השמע</string>
   <string name="label_action_clear_notifications">נקה את כל ההתראות</string>
+  <string name="label_action_editing_smartbar">עורך שורה חכמה</string>
+  <string name="label_action_split_screen">פיצול מסך</string>
+  <string name="label_action_one_handed_mode_left">מצב שימוש ביד אחד (צד שמאל)</string>
+  <string name="label_action_one_handed_mode_right">מצב שימוש ביד אחד (צד ימין)</string>
+  <string name="label_action_media_left">שיר קודם</string>
+  <string name="label_action_media_right">שיר הבא</string>
   <!-- Smartbar -->
+  <string name="label_smartbar_actions">פעולות</string>
+  <string name="label_smartbar_icon">סמל</string>
+  <string name="label_smartbar_add">הוסף</string>
+  <string name="label_smartbar_remove">הסר</string>
+  <string name="label_smartbar_cancel">ביטול</string>
+  <string name="label_smartbar_finish">סיום</string>
+  <string name="label_smartbar_single_tap">לחיצה יחידה</string>
+  <string name="label_smartbar_double_tap">לחיצה כפולה</string>
+  <string name="label_smartbar_long_press">לחיצה ארוכה</string>
+  <string name="label_smartbar_icon_pack">חבילת סמלים</string>
+  <string name="label_smartbar_icon_gallery">גלריה</string>
+  <string name="label_smartbar_icon_color">צבע</string>
+  <string name="label_smartbar_icon_reset">איפוס</string>
   <!-- App killed message -->
 </resources>

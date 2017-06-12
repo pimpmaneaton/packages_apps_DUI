@@ -17,6 +17,61 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
+  <string name="label_action_no_action">Nicio acțiune</string>
+  <string name="label_action_settings_panel">Panoul de setări</string>
+  <string name="label_action_notification_panel">Panou notificări</string>
+  <string name="label_action_screenshot">Captură ecran</string>
+  <string name="label_action_region_screenshot">Captură parțială de ecran</string>
+  <string name="label_action_screenrecord">Înregistrare de ecran</string>
+  <string name="label_action_expanded_desktop">Desktop extins</string>
+  <string name="label_action_screen_off">Oprește ecranul</string>
+  <string name="label_action_force_close_app">Forțează închiderea aplicației</string>
+  <string name="label_action_search_assistant">Asistent căutare</string>
+  <string name="label_action_google_now_on_tap">Google Now la apăsare</string>
+  <string name="label_action_voice_search">Căutare vocală</string>
+  <string name="label_action_in_app_search">Căutare în aplicație</string>
+  <string name="label_action_flashlight">Lanternă</string>
+  <string name="label_action_bluetooth">Bluetooth</string>
+  <string name="label_action_wifi">WiFi</string>
+  <string name="label_action_hotspot">Hotspot</string>
+  <string name="label_action_last_app">Ultima aplicație</string>
+  <string name="label_action_overview">Recente</string>
+  <string name="label_action_power_menu">Meniu pornire</string>
+  <string name="label_action_menu">Meniu</string>
+  <string name="label_action_back">Înapoi</string>
+  <string name="label_action_home">Acasă</string>
+  <string name="label_action_ime_switcher">Schimbător IME</string>
+  <string name="label_action_stop_screenpinning">Oprire fixare ecran</string>
+  <string name="label_action_ime_down">Metodă de introducere cursor în jos</string>
+  <string name="label_action_ime_left">Metodă de introducere cursor stânga</string>
+  <string name="label_action_ime_right">Metodă de introducere cursor dreapta</string>
+  <string name="label_action_ime_up">Metodă de introducere cursor sus</string>
+  <string name="label_action_volume_panel">Panou de volum</string>
+  <string name="label_action_clear_notifications">Ștergeți notificări</string>
+  <string name="label_action_editing_smartbar">Editor bară inteligentă</string>
+  <string name="label_action_split_screen">Ecran divizat</string>
+  <string name="label_action_one_handed_mode_left">Mod cu o mână (stânga)</string>
+  <string name="label_action_one_handed_mode_right">Mod cu o mână (dreapta)</string>
+  <string name="label_action_media_left">Melodia anterioară</string>
+  <string name="label_action_media_right">Piesa următoare</string>
   <!-- Smartbar -->
+  <string name="label_smartbar_actions">Acțiuni</string>
+  <string name="label_smartbar_icon">Pictogramă</string>
+  <string name="label_smartbar_add">Adaugă</string>
+  <string name="label_smartbar_remove">Elimină</string>
+  <string name="label_smartbar_cancel">Anulare</string>
+  <string name="label_smartbar_finish">Finalizare</string>
+  <string name="label_smartbar_single_tap">O atingere</string>
+  <string name="label_smartbar_double_tap">Apăsare dublă</string>
+  <string name="label_smartbar_long_press">Apăsare lungă</string>
+  <string name="label_smartbar_icon_pack">Pachet de pictograme</string>
+  <string name="label_smartbar_icon_gallery">Galerie</string>
+  <string name="label_smartbar_icon_color">Culoare</string>
+  <string name="label_smartbar_icon_reset">Resetează</string>
+  <string name="smartbar_editor_toast_starting">Pornire editor navigare</string>
+  <string name="smartbar_editor_toast_stopping">Oprire editor navigare</string>
+  <string name="smartbar_editor_toast_unavailable">Editor de navigare indisponibil</string>
+  <string name="edit_mode">Modul de editare</string>
   <!-- App killed message -->
+  <string name="app_killed_message">%s terminat</string>
 </resources>
