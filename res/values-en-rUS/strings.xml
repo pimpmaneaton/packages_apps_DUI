@@ -19,11 +19,11 @@
   <!-- Bindable action labels -->
   <string name="label_action_no_action">No action</string>
   <string name="label_action_settings_panel">Settings panel</string>
-  <string name="label_action_notification_panel">String. Xml</string>
+  <string name="label_action_notification_panel">Notification panel</string>
   <string name="label_action_screenshot">Screenshot</string>
-  <string name="label_action_region_screenshot">strings. xml</string>
+  <string name="label_action_region_screenshot">Region screenshots</string>
   <string name="label_action_screenrecord">Record screen</string>
-  <string name="label_action_expanded_desktop">strings.xml</string>
+  <string name="label_action_expanded_desktop">Expanded desktop</string>
   <!-- Smartbar -->
   <!-- App killed message -->
 </resources>
