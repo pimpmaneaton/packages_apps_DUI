@@ -48,7 +48,7 @@
   <string name="label_action_ime_up">輸入游標向上</string>
   <string name="label_action_volume_panel">音量面板</string>
   <string name="label_action_clear_notifications">清除通知</string>
-  <string name="label_action_editing_smartbar">Smartbar 編輯器</string>
+  <string name="label_action_editing_smartbar">智慧列編輯器</string>
   <string name="label_action_split_screen">分割視窗</string>
   <string name="label_action_one_handed_mode_left">單手模式 (左側)</string>
   <string name="label_action_one_handed_mode_right">單手模式 (右側)</string>
