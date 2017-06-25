@@ -61,7 +61,7 @@
   <string name="label_smartbar_remove">Usuń</string>
   <string name="label_smartbar_cancel">Anuluj</string>
   <string name="label_smartbar_finish">Zakończ</string>
-  <string name="label_smartbar_single_tap">Pojedynczy dotknięcie</string>
+  <string name="label_smartbar_single_tap">Pojedyncze dotknięcie</string>
   <string name="label_smartbar_double_tap">Podwójne dotknięcie</string>
   <string name="label_smartbar_long_press">Długie naciśnięcie</string>
   <string name="label_smartbar_icon_pack">Zestaw ikon</string>
