@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">Keine Aktion</string>
-  <string name="label_action_settings_panel">Einstellungs Panel</string>
+  <string name="label_action_settings_panel">Schnelleinstellungen</string>
   <string name="label_action_notification_panel">Benachrichtigungsleiste</string>
   <string name="label_action_screenshot">Bildschirmfoto</string>
   <string name="label_action_region_screenshot">Partieller Screenshot</string>
@@ -63,7 +63,7 @@
   <string name="label_smartbar_finish">Abschließen</string>
   <string name="label_smartbar_single_tap">Einfaches Antippen</string>
   <string name="label_smartbar_double_tap">Doppeltes Tippen</string>
-  <string name="label_smartbar_long_press">Langes drücken</string>
+  <string name="label_smartbar_long_press">Langes Drücken</string>
   <string name="label_smartbar_icon_pack">Symbolpaket</string>
   <string name="label_smartbar_icon_gallery">Gallerie</string>
   <string name="label_smartbar_icon_color">Farbe</string>
