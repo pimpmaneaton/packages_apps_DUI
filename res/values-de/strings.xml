@@ -63,7 +63,7 @@
   <string name="label_smartbar_finish">Abschließen</string>
   <string name="label_smartbar_single_tap">Einfaches Antippen</string>
   <string name="label_smartbar_double_tap">Doppeltes Tippen</string>
-  <string name="label_smartbar_long_press">Langes Drücken</string>
+  <string name="label_smartbar_long_press">Langes drücken</string>
   <string name="label_smartbar_icon_pack">Symbolpaket</string>
   <string name="label_smartbar_icon_gallery">Gallerie</string>
   <string name="label_smartbar_icon_color">Farbe</string>

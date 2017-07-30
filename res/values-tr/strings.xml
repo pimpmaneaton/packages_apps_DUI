@@ -23,7 +23,7 @@
   <string name="label_action_screenshot">Ekran görüntüsü</string>
   <string name="label_action_region_screenshot">Kısmi ekran görüntüsü</string>
   <string name="label_action_screenrecord">Ekranı kaydet</string>
-  <string name="label_action_expanded_desktop">Genişletilmiş masaüstü</string>
+  <string name="label_action_expanded_desktop">Genişletilmiş ekran</string>
   <string name="label_action_screen_off">Ekranı kapat</string>
   <string name="label_action_force_close_app">Uygulamayı kapatmaya zorla</string>
   <string name="label_action_search_assistant">Arama yardımcısı</string>
