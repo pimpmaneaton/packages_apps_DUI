@@ -68,8 +68,8 @@
   <string name="label_smartbar_icon_gallery">Galeria</string>
   <string name="label_smartbar_icon_color">Cor</string>
   <string name="label_smartbar_icon_reset">Redefinir</string>
-  <string name="smartbar_editor_toast_starting">Iniciando o editor de navegação</string>
-  <string name="smartbar_editor_toast_stopping">Parando o editor de navegação</string>
+  <string name="smartbar_editor_toast_starting">Iniciando o editor da navbar</string>
+  <string name="smartbar_editor_toast_stopping">Parando o editor da navbar</string>
   <string name="smartbar_editor_toast_unavailable">Editor de navegação indisponível</string>
   <string name="edit_mode">Modo de Edição</string>
   <!-- App killed message -->
