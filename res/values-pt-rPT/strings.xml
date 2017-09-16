@@ -17,7 +17,7 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
-  <string name="label_action_no_action">Sem ação</string>
+  <string name="label_action_no_action">Nenhuma ação</string>
   <string name="label_action_settings_panel">Painel de definições</string>
   <string name="label_action_notification_panel">Painel de notificações</string>
   <string name="label_action_screenshot">Captura de ecrã</string>
@@ -67,7 +67,7 @@
   <string name="label_smartbar_icon_pack">Pacote de ícones</string>
   <string name="label_smartbar_icon_gallery">Galeria</string>
   <string name="label_smartbar_icon_color">Cor</string>
-  <string name="label_smartbar_icon_reset">Restaurar</string>
+  <string name="label_smartbar_icon_reset">Repor</string>
   <string name="smartbar_editor_toast_starting">A iniciar o editor de navegação</string>
   <string name="smartbar_editor_toast_stopping">A parar o editor de navegação</string>
   <string name="smartbar_editor_toast_unavailable">Editor de navegação indisponível</string>

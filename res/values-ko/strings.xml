@@ -29,7 +29,7 @@
   <string name="label_action_search_assistant">검색 도우미</string>
   <string name="label_action_google_now_on_tap">구글 나우 온 탭</string>
   <string name="label_action_voice_search">음성 검색</string>
-  <string name="label_action_in_app_search">앱 내 검색</string>
+  <string name="label_action_in_app_search">인 앱 검색</string>
   <string name="label_action_flashlight">손전등</string>
   <string name="label_action_bluetooth">블루투스</string>
   <string name="label_action_wifi">Wi-Fi</string>
@@ -51,7 +51,7 @@
   <string name="label_action_editing_smartbar">스마트바 편집기</string>
   <string name="label_action_split_screen">화면 분할</string>
   <string name="label_action_one_handed_mode_left">한손모드(왼쪽)</string>
-  <string name="label_action_one_handed_mode_right">한손모드(오른쪽)</string>
+  <string name="label_action_one_handed_mode_right">한손모드 (오른쪽)</string>
   <string name="label_action_media_left">이전 트랙</string>
   <string name="label_action_media_right">다음 트랙</string>
   <!-- Smartbar -->
