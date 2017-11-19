@@ -40,7 +40,7 @@
   <string name="label_action_menu">Menu</string>
   <string name="label_action_back">Voltar</string>
   <string name="label_action_home">Página Inicial</string>
-  <string name="label_action_ime_switcher">Método de entrada</string>
+  <string name="label_action_ime_switcher">Seletor de método de introdução</string>
   <string name="label_action_stop_screenpinning">Sair da fixação do ecrã</string>
   <string name="label_action_ime_down">Cursor para baixo</string>
   <string name="label_action_ime_left">Cursor para a esquerda</string>
