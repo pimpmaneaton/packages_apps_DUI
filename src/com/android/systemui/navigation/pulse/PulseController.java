@@ -25,13 +25,10 @@
 package com.android.systemui.navigation.pulse;
 
 import com.android.systemui.navigation.pulse.PulseController;
-import com.android.systemui.navigation.utils.MediaMonitor;
 
-import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.database.ContentObserver;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -69,7 +66,6 @@ public class PulseController {
 
     private Context mContext;
     private Handler mHandler;
-    private MediaMonitor mMediaMonitor;
     private AudioManager mAudioManager;
     private Renderer mRenderer;
     private VisualizerStreamHandler mStreamHandler;
@@ -86,37 +82,35 @@ public class PulseController {
     private boolean mLeftInLandscape;
     private boolean mScreenPinningEnabled;
     private int mPulseStyle;
+    private boolean mIsMediaPlaying;
 
-    private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            if (PowerManager.ACTION_POWER_SAVE_MODE_CHANGING.equals(intent.getAction())) {
-                mPowerSaveModeEnabled = intent.getBooleanExtra(PowerManager.EXTRA_POWER_SAVE_MODE,
-                        false);
-                mHandler.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        doLinkage();
-                    }
-                });
-            } else if (AudioManager.STREAM_MUTE_CHANGED_ACTION.equals(intent.getAction())
-                    || (AudioManager.VOLUME_CHANGED_ACTION.equals(intent.getAction()))) {
-                int streamType = intent.getIntExtra(AudioManager.EXTRA_VOLUME_STREAM_TYPE, -1);
-                if (streamType == AudioManager.STREAM_MUSIC) {
-                    boolean muted = isMusicMuted(streamType);
-                    if (mMusicStreamMuted != muted) {
-                        mMusicStreamMuted = muted;
-                        mHandler.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                doLinkage();
-                            }
-                        });
-                    }
+    public void onReceive(Intent intent) {
+        if (PowerManager.ACTION_POWER_SAVE_MODE_CHANGING.equals(intent.getAction())) {
+            mPowerSaveModeEnabled = intent.getBooleanExtra(PowerManager.EXTRA_POWER_SAVE_MODE,
+                    false);
+            mHandler.post(new Runnable() {
+                @Override
+                public void run() {
+                    doLinkage();
+                }
+            });
+        } else if (AudioManager.STREAM_MUTE_CHANGED_ACTION.equals(intent.getAction())
+                || (AudioManager.VOLUME_CHANGED_ACTION.equals(intent.getAction()))) {
+            int streamType = intent.getIntExtra(AudioManager.EXTRA_VOLUME_STREAM_TYPE, -1);
+            if (streamType == AudioManager.STREAM_MUSIC) {
+                boolean muted = isMusicMuted(streamType);
+                if (mMusicStreamMuted != muted) {
+                    mMusicStreamMuted = muted;
+                    mHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            doLinkage();
+                        }
+                    });
                 }
             }
         }
-    };
+    }
 
     private final VisualizerStreamHandler.Listener mStreamListener = new VisualizerStreamHandler.Listener() {
         @Override
@@ -202,22 +196,6 @@ public class PulseController {
         PowerManager pm = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
         mPowerSaveModeEnabled = pm.isPowerSaveMode();
 
-        mMediaMonitor = new MediaMonitor(mContext) {
-            @Override
-            public void onPlayStateChanged(boolean playing) {
-                doLinkage();
-            }
-            @Override
-            public void areMetadataChanged() {
-                //do nothing
-            }
-        };
-        mMediaMonitor.setListening(true);
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(PowerManager.ACTION_POWER_SAVE_MODE_CHANGING);
-        filter.addAction(AudioManager.STREAM_MUTE_CHANGED_ACTION);
-        filter.addAction(AudioManager.VOLUME_CHANGED_ACTION);
-        mContext.registerReceiver(mReceiver, filter);
         mSettingsObserver.register();
         mStreamHandler = new VisualizerStreamHandler(mContext, this, mStreamListener);
         mAlbumArtColor = Color.TRANSPARENT;
@@ -372,10 +350,9 @@ public class PulseController {
      * @return true if all conditions are met to allow link, false if and conditions are not met
      */
     private boolean isAbleToLink() {
-        return mMediaMonitor != null
-                && isPulseEnabled()
+        return isPulseEnabled()
                 && mScreenOn
-                && mMediaMonitor.isAnythingPlaying()
+                && mIsMediaPlaying
                 && !mLinked
                 && !mPowerSaveModeEnabled
                 && !mKeyguardShowing
@@ -433,5 +410,10 @@ public class PulseController {
                 }
             }
         }
+    }
+
+    public void setMediaPlaying(boolean playing) {
+        mIsMediaPlaying = playing;
+        doLinkage();
     }
 }
