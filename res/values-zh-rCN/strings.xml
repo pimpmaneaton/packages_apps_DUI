@@ -27,7 +27,7 @@
   <string name="label_action_screen_off">关闭屏幕</string>
   <string name="label_action_force_close_app">强制关闭应用</string>
   <string name="label_action_search_assistant">搜索助手</string>
-  <string name="label_action_google_now_on_tap">Google assistant</string>
+  <string name="label_action_google_now_on_tap">Google 助理</string>
   <string name="label_action_voice_search">语音搜索</string>
   <string name="label_action_in_app_search">应用内搜索</string>
   <string name="label_action_flashlight">手电筒</string>
