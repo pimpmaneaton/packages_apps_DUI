@@ -54,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">Режим \"Управление одной рукой\" (правая сторона)</string>
   <string name="label_action_media_left">Предыдущий трек</string>
   <string name="label_action_media_right">Следующий трек</string>
+  <string name="label_action_assistant_sound_search">Google Sound Search</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">Действия</string>
   <string name="label_smartbar_icon">Значок</string>

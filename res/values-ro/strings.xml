@@ -54,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">Mod cu o mână (dreapta)</string>
   <string name="label_action_media_left">Melodia anterioară</string>
   <string name="label_action_media_right">Piesa următoare</string>
+  <string name="label_action_assistant_sound_search">Sunet de căutare Google</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">Acțiuni</string>
   <string name="label_smartbar_icon">Pictogramă</string>
