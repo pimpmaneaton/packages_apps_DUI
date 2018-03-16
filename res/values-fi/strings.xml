@@ -54,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">Yhdellä kädellä tila (oikeapuoli)</string>
   <string name="label_action_media_left">Edellinen kappale</string>
   <string name="label_action_media_right">Seuraava kappale</string>
+  <string name="label_action_assistant_sound_search">Google puhe etsintä</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">Toiminnot</string>
   <string name="label_smartbar_icon">Kuvake</string>

@@ -48,7 +48,7 @@
   <string name="label_action_ime_up">Cursor para cima</string>
   <string name="label_action_volume_panel">Painel de volume</string>
   <string name="label_action_clear_notifications">Limpar notificações</string>
-  <string name="label_action_editing_smartbar">Editor da barra de navegação</string>
+  <string name="label_action_editing_smartbar">Editor da SmartBar</string>
   <string name="label_action_split_screen">Dividir ecrã</string>
   <string name="label_action_one_handed_mode_left">Modo de uma mão (esquerda)</string>
   <string name="label_action_one_handed_mode_right">Modo de uma mão (direita)</string>

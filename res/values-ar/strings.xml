@@ -54,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">نمط اليد الواحدة (الجانب الأيمن)</string>
   <string name="label_action_media_left">المسار السابق</string>
   <string name="label_action_media_right">المسار التالي</string>
+  <string name="label_action_assistant_sound_search">جوجل البحث السليم</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">الإجراءات</string>
   <string name="label_smartbar_icon">الرمز</string>

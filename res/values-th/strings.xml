@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">ไม่ทำอะไร</string>
+  <string name="label_action_settings_panel">แผง QS</string>
   <string name="label_action_notification_panel">แผงการแจ้งเตือน</string>
   <string name="label_action_screenshot">ภาพหน้าจอ</string>
   <string name="label_action_region_screenshot">บางส่วนของภาพหน้าจอ</string>
@@ -68,6 +69,7 @@
   <string name="smartbar_editor_toast_starting">เริ่มต้นนำทางแก้ไข</string>
   <string name="smartbar_editor_toast_stopping">หยุดนำทางแก้ไข</string>
   <string name="smartbar_editor_toast_unavailable">นำทางแก้ไขไม่พร้อมใช้งาน</string>
+  <string name="edit_mode">โหมดแก้ไข</string>
   <!-- App killed message -->
   <string name="app_killed_message">%s ฆ่า</string>
   <!-- Pulse and media arrows blacklist -->

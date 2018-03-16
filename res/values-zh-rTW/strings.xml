@@ -54,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">單手模式 (右側)</string>
   <string name="label_action_media_left">上一首曲目</string>
   <string name="label_action_media_right">下一首曲目</string>
+  <string name="label_action_assistant_sound_search">Google 語音搜尋</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">動作</string>
   <string name="label_smartbar_icon">圖示</string>
