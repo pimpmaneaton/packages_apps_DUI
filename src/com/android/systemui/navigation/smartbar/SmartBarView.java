@@ -206,6 +206,8 @@ public class SmartBarView extends BaseNavigationBar {
     private float mCustomIconScale;
     public float mPulseNavButtonsOpacity;
     private boolean isNavDoubleTapEnabled;
+    private static boolean mNavTintSwitch;
+    public static int mIcontint;
 
     private boolean mIsMediaPlaying;
 
@@ -373,6 +375,10 @@ public class SmartBarView extends BaseNavigationBar {
 
     public void setButtonDrawable(SmartButtonView button) {
         ButtonConfig config = button.getButtonConfig();
+        mNavTintSwitch = Settings.System.getInt(getContext().getContentResolver(),
+                Settings.System.NAVBAR_TINT_SWITCH, 0) == 1;
+        mIcontint = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.NAVBAR_BUTTON_COLOR, 0xFFFFFFFF);
         if (config != null) {
             Context ctx = getContext();
             KeyButtonDrawable d = null;
@@ -406,6 +412,20 @@ public class SmartBarView extends BaseNavigationBar {
                     button.setImageDrawable(d);
                 }
             }
+            if (mNavTintSwitch) {
+            button.setColorFilter(mIcontint, Mode.SRC_IN);
+            } else {
+            button.setColorFilter(null);
+            }
+        }
+    }
+
+    public static int updatetint() {
+        if (mNavTintSwitch) {
+            return mIcontint;
+        } else {
+            mIcontint = -1 ;
+            return mIcontint;
         }
     }
 
