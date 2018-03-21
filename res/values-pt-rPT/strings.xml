@@ -40,7 +40,7 @@
   <string name="label_action_menu">Menu</string>
   <string name="label_action_back">Voltar</string>
   <string name="label_action_home">Página Inicial</string>
-  <string name="label_action_ime_switcher">Alterador do método de entrada</string>
+  <string name="label_action_ime_switcher">Seletor do método de entrada</string>
   <string name="label_action_stop_screenpinning">Sair da fixação do ecrã</string>
   <string name="label_action_ime_down">Cursor para baixo</string>
   <string name="label_action_ime_left">Cursor para a esquerda</string>
@@ -53,7 +53,7 @@
   <string name="label_action_one_handed_mode_left">Modo de uma mão (esquerda)</string>
   <string name="label_action_one_handed_mode_right">Modo de uma mão (direita)</string>
   <string name="label_action_media_left">Faixa anterior</string>
-  <string name="label_action_media_right">Próxima faixa</string>
+  <string name="label_action_media_right">Faixa seguinte</string>
   <string name="label_action_assistant_sound_search">Pesquisa de som no Google</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">Ações</string>

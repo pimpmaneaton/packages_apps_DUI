@@ -54,7 +54,7 @@
   <string name="label_action_one_handed_mode_right">Chế độ một tay (bên phải)</string>
   <string name="label_action_media_left">Bản nhạc trước</string>
   <string name="label_action_media_right">Bản nhạc tiếp theo</string>
-  <string name="label_action_assistant_sound_search">Tìm kiếm âm nhạc bằng Google</string>
+  <string name="label_action_assistant_sound_search">Tìm kiếm âm thanh bằng Google</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">Hành động</string>
   <string name="label_smartbar_icon">Biểu tượng</string>
