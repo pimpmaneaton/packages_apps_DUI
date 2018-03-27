@@ -36,6 +36,7 @@ import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
+import android.graphics.PorterDuff.Mode;
 import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Handler;
