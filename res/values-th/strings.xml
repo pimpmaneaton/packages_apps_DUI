@@ -27,6 +27,7 @@
   <string name="label_action_screen_off">ปิดการล็อกหน้าจอ</string>
   <string name="label_action_force_close_app">บังคับปิดแอป</string>
   <string name="label_action_search_assistant">ช่วยค้นหา</string>
+  <string name="label_action_google_now_on_tap">ผู้ช่วย Google</string>
   <string name="label_action_voice_search">การค้นหาด้วยเสียง</string>
   <string name="label_action_in_app_search">ค้นหาในแอป</string>
   <string name="label_action_flashlight">ไฟฉาย</string>
@@ -39,6 +40,7 @@
   <string name="label_action_menu">เมนู</string>
   <string name="label_action_back">ย้อนกลับ</string>
   <string name="label_action_home">หน้าหลัก</string>
+  <string name="label_action_ime_switcher">เปลี่ยน IME</string>
   <string name="label_action_stop_screenpinning">หยุดการปักหมุดหน้าจอ</string>
   <string name="label_action_ime_down">วิธีการป้อนข้อมูลเคอร์เซอร์ลง</string>
   <string name="label_action_ime_left">วิธีการป้อนข้อมูลเคอร์เซอร์ไปทางด้านซ้าย</string>
@@ -52,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">โหมดมือเดียว (ขวา)</string>
   <string name="label_action_media_left">แทร็กก่อนหน้า</string>
   <string name="label_action_media_right">แทร็กถัดไป</string>
+  <string name="label_action_assistant_sound_search">การค้นหาด้วยเสียงของ Google</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">การดำเนินการ</string>
   <string name="label_smartbar_icon">ไอคอน</string>
