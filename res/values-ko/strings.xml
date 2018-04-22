@@ -54,6 +54,7 @@
   <string name="label_action_one_handed_mode_right">한손모드 (오른쪽)</string>
   <string name="label_action_media_left">이전 트랙</string>
   <string name="label_action_media_right">다음 트랙</string>
+  <string name="label_action_assistant_sound_search">Google 음성 검색</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">동작</string>
   <string name="label_smartbar_icon">아이콘</string>

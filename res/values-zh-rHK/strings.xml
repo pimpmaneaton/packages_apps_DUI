@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Bindable action labels -->
   <string name="label_action_no_action">無動作</string>
-  <string name="label_action_settings_panel">設定面板</string>
+  <string name="label_action_settings_panel">快速設置面板</string>
   <string name="label_action_notification_panel">通知面板</string>
   <string name="label_action_screenshot">擷取螢幕畫面</string>
   <string name="label_action_region_screenshot">部分截圖</string>
@@ -27,7 +27,7 @@
   <string name="label_action_screen_off">關閉螢幕</string>
   <string name="label_action_force_close_app">強制關閉應用程式</string>
   <string name="label_action_search_assistant">搜尋助理</string>
-  <string name="label_action_google_now_on_tap">Google 語音助理</string>
+  <string name="label_action_google_now_on_tap">Google助手</string>
   <string name="label_action_voice_search">語音搜尋</string>
   <string name="label_action_in_app_search">應用程式內搜尋</string>
   <string name="label_action_flashlight">手電筒</string>
