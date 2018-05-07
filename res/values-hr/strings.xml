@@ -54,7 +54,7 @@
   <string name="label_action_one_handed_mode_right">Način rada jednom rukom (desna strana)</string>
   <string name="label_action_media_left">Prethodna pjesma</string>
   <string name="label_action_media_right">Sljedeća pjesma</string>
-  <string name="label_action_assistant_sound_search">Googleovo glasovno pretraživanje</string>
+  <string name="label_action_assistant_sound_search">Googleova pretraga glazbe</string>
   <!-- Smartbar -->
   <string name="label_smartbar_actions">Radnje</string>
   <string name="label_smartbar_icon">Ikona</string>
